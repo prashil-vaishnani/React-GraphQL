@@ -16,7 +16,10 @@ function Characterlist() {
     <div className="Characterlist">
       {data.characters.results.map((character) => {
         return (
-          <Link to={`${character.id}`}>
+          <Link
+            to={`${character.id}`}
+            style={{ textDecoration: "none", color: "blue" }}
+          >
             <img
               src={character.image}
               alt="imagedsbf"

@@ -1,0 +1,10 @@
+.layout {
+  display: flex;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.layout-link {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
